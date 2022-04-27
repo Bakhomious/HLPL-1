@@ -231,7 +231,9 @@ void calculate()
 int main() 
 try {
 
-	cout << "Welcome to our simple calculator.\n" << "Please enter expressions using floating-point numbers.\n" << "Operators available are +, -, *, / and expressions in ().\n" << "To end an expression please enter '=' and to exit calculator please enter 'x'\n";
+	cout << "Welcome to our simple calculator.\n" << "Please enter expressions using floating-point numbers.\n" 
+		 << "Operators available are +, -, *, / and expressions in ().\n" 
+		 << "To end an expression please enter '=' and to exit calculator please enter 'x'\n";
 
 
 	define_name("pi", 3.1415926535);
